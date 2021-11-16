@@ -6,10 +6,22 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-.container
+body
 {
-    
+    overflow: hidden;
+    scroll-behavior: auto;
 }
+/* UTILITIES */
+
+.color-green{
+
+    color: green;
+ }
+ .color-yellow
+ {
+     color: yellow;
+ }
+ 
 /* NAVBAR */
 li{
     display: inline-block;
@@ -59,7 +71,6 @@ figure img{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: yellow;
     width: 50%;
 }
 
@@ -74,4 +85,14 @@ figure img{
 {
     background-color: red;
 }
+#hilfiger
+{
+    background-color: green;
+}
+#converse
+{
+    background-color: yellow;
+}
+
+
 
